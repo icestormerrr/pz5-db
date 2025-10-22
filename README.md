@@ -11,17 +11,20 @@
 - Корректно работать с context, пулом соединений и обработкой ошибок
 
 ## Окружение
-Сервер: go 1.23.0 (Windows)
-БД: PostgreSQL 16.10 (Ubuntu 16.10-0ubuntu0.24.04.1)
+- Сервер: go 1.23.0 (Windows)
+- БД: PostgreSQL 16.10 (Ubuntu 16.10-0ubuntu0.24.04.1)
 
 ## Скриншоты
 Создание таблицы в psql
+
 ![alt text](docs/image.png)
 
 Успешный вывод go run .
+
 ![alt text](docs/image-1.png)
 
 SELECT * FROM tasks;
+
 ![alt text](docs/image-2.png)
 
 ## Ответы на вопросы
