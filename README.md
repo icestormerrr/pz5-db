@@ -81,6 +81,6 @@ make build
 
 ## Конфигурация
 Переменные окружения:
-- DATABASE_URL - порт, на котором работает база данных (обязательный, пример postgres://user:password@localhost:5432/todo?sslmode=disable)
+- DATABASE_URL - строка подключения к базе данных (обязательный, пример postgres://user:password@localhost:5432/todo?sslmode=disable)
 
 
