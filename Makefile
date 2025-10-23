@@ -1,8 +1,8 @@
 run:
-	go run ./cmd/pz5-db
+	go run .
 
 build:
-	go build -o pz5-db.exe ./cmd/pz5-db
+	go build -o pz5-db.exe .
 
 test:
 	go test ./... -v
